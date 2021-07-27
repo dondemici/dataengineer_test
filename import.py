@@ -12,7 +12,7 @@ try:
     scdb = msql.connect(
         host="localhost",
         user="root",
-        password="r!s3@b0V3"
+        password=""
     )
     if scdb.is_connected():
         cursor = scdb.cursor()
