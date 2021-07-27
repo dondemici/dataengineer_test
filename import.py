@@ -26,7 +26,7 @@ try:
     scdb = msql.connect(
         host="localhost",
         user="root",
-        password="r!s3@b0V3",
+        password="",
         database="starcraft_db"
     )
     if scdb.is_connected():
