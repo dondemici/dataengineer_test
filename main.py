@@ -23,7 +23,7 @@ from dash.dependencies import Input, Output
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="r!s3@b0V3",
+  password="",
   database="cooee_db"
 )
 
